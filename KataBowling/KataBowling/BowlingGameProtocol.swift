@@ -11,7 +11,7 @@ public protocol BowlingGameProtocol {
     
     mutating func roll(fallenPins: Int)
     
-    func calculateTotalScore(_ individualScores : Array<Int>) -> Int
+    func calculateTotalScore(_ framesScore : Array<Int>) -> Int
 }
 
 extension BowlingGameProtocol {
